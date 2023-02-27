@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(61, 54, 54);
+}
+
+#div-container{
+    margin-top: 50px;
+}
+
+/* BOTÕES */
+
+#div-container-buttons{
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.command-buttons{
+    margin: 25px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer; 
+    background-color: rgb(241, 234, 224);
+    color: rgb(17, 85, 66);
+    /* text-transform: uppercase; */
+    font-weight: bold;
+
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    transition: 0.5s;
+
+    -webkit-box-shadow:0px 0px 9px 3px rgba(45,255,196,0.93);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(45,255,196,0.93);
+    box-shadow: 0px 0px 9px 3px rgba(45,255,196,0.93);
+}
+.command-buttons:hover{
+    color: rgb(150, 212, 195);
+    background-color:rgb(27, 110, 87) ;
+}
+
+
+
+/* CRONOMETRO */
+#div-timer{
+    border:2px solid rgba(45,255,196,0.93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+
+    -webkit-box-shadow:0px 0px 129px 42px rgba(45,255,196,0.93);
+    -moz-box-shadow: 0px 0px 129px 42px rgba(45,255,196,0.93);
+    box-shadow: 0px 0px 129px 42px rgba(45,255,196,0.93);
+
+}
+#div-timer p{
+    color: rgb(233, 228, 228);
+    font-size: 40px;
+}
+
+
+
+
+
+
+/* FOOTER */
+#footer{
+    display: flex;
+    justify-content: right;
+    /* border:2px solid rgb(124, 110, 160); */
+    background: rgba(29, 156, 120, 0.8);
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: auto;
+}
+
+.author-photo img{
+    border:1px solid rgba(45,255,196,0.93);
+    border-radius: 50%;
+    width: 28px;
+    margin: 10px 25px 10px 10px;
+}
+
+.vetor-contact img{
+    /* border:2px solid rgb(33, 173, 5); */
+    width: 30px;
+    margin: 10px 25px 10px 10px;
+}
